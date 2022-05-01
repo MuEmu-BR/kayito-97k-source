@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util Files">
+      <UniqueIdentifier>{2d98712e-7860-4e76-a39c-e80cf261b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom">
+      <UniqueIdentifier>{89ceb3ff-bc69-4a16-afc3-5f64cbc52b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\System">
+      <UniqueIdentifier>{7fca7508-ccd6-4e97-ba47-304faf81ef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Window">
+      <UniqueIdentifier>{cfdcf06d-76de-48a0-8f0d-b43631bae980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Monster">
+      <UniqueIdentifier>{733da232-637c-4f5a-aaf9-130c4b7c5a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Map">
+      <UniqueIdentifier>{d2f99edf-d312-40dd-a62f-b9cf3daed2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Interface">
+      <UniqueIdentifier>{c2cb8b9d-6921-4790-b2ec-ea1e226efb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom\Visual">
+      <UniqueIdentifier>{90c068f1-4e7e-42b1-b434-48b5cd2c41a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCRC32.H">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Patchs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Custom\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Custom\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayMode.h">
+      <Filter>Custom\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Custom\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="HWID.h">
+      <Filter>Custom\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Custom\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="stb.h">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Custom\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Custom\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponView.h">
+      <Filter>Custom\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildLogo.h">
+      <Filter>Custom\Visual</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCRC32.Cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Patchs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Custom\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Custom\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayMode.cpp">
+      <Filter>Custom\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Custom\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="HWID.cpp">
+      <Filter>Custom\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>Custom\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Custom\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Custom\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponView.cpp">
+      <Filter>Custom\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildLogo.cpp">
+      <Filter>Custom\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Client.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
